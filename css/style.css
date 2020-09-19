@@ -84,7 +84,7 @@ html {
 /* ------------------ */
 .carousel {
     background-image: url(../img/banner.jpg);
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -93,17 +93,20 @@ html {
 }
 .header__text {
     position: absolute;
-    top: 35%;
-    right: 5%;
+    top: 30%;
+    right: 14%;
     text-transform: uppercase;
 }
-.header__main, .header__sub {
+.header__main , .header__sub {
     margin: 10px 0;
     padding: 5px;
-    background-color: #d5d5c3;
     font-weight: 400;
-    width: fit-content;
     opacity: 0.6;
+    text-align: right;
+}
+.header__main span, .header__sub span {
+    background-color: #d5d5c3;
+    padding: 2px;
 }
 .header__main {
     font-size: 40px;
@@ -114,7 +117,7 @@ html {
 }
 .header__sub {
     font-size: 10px;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     word-spacing: 2px;
 }
 /* ------------------ */
@@ -269,7 +272,6 @@ html {
 .footer__logo {
     color: #fff;
 }
-
 .footer input[type=submit] {
     color: #fff;
     background-color: orangered;
