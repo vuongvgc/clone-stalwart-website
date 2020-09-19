@@ -24,7 +24,7 @@ html {
 .header__tertiary {
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .header__tertiary-red {
     color: #ff1a1a;
@@ -151,14 +151,17 @@ html {
     width: 60%;
     margin: 10px auto;
 }
+/* welcome box  */
 .left, .right {
     float: left;
     width: 50%;
 }
+/* image  */
 .welcome__img {
     width: 100%;
     height: 250px;
 }
+/* content  */
 .welcome__box {
     margin: 20px 0;
 
@@ -166,6 +169,7 @@ html {
 .welcome__icon, .welcome__content {
     float: left;
 }
+/* icon */
 .welcome__icon {
     width: 5%;
 }
@@ -173,6 +177,58 @@ html {
     width: 100%;
     margin-top: 5px;
 }
+/* text */
 .welcome__content {
     width: 90%;
+}
+/* ------------------ */
+/* -------Work----- */
+/* ------------------ */
+.work {
+    margin: 40px auto;
+    width: 90%;
+}
+.work__box {
+    float: left;
+    width: 33.3333%;
+    padding: 5px;
+}
+.work__img {
+    width: 100%;
+}
+/* ------------------ */
+/* -------success----- */
+/* ------------------ */
+.succeed {
+    margin: 40px auto;
+    width: 90%;
+}
+.succeed__box, .archive__box {
+    margin-bottom: 20px;
+}
+.succeed__list, .archive__list {
+    list-style: none;
+}
+.right-succeed {
+    float: right;
+    width: 45%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('/img/25.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.archive__box {
+    padding: 50px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.archive__item {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.archive__number {
+    color: #00e6e6;
+    font-weight: 600;
+    padding-right: 20px;
 }
