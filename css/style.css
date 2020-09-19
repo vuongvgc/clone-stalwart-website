@@ -202,6 +202,7 @@ html {
 .succeed {
     margin: 40px auto;
     width: 90%;
+    margin-bottom: 40px;
 }
 .succeed__box, .archive__box {
     margin-bottom: 20px;
@@ -231,4 +232,46 @@ html {
     color: #00e6e6;
     font-weight: 600;
     padding-right: 20px;
+}
+/* ------------------ */
+/* -------footer------- */
+/* ------------------ */
+.footer{
+    background-color: #333333;
+    color: #fff;
+    padding: 40px 10px;
+}
+.footer__box {
+    width: 85%;
+    margin: 0 auto
+}
+.left-footer {
+    float: left;
+    width: 25%;
+}
+.footer__main {
+    margin-bottom: 20px;
+}
+.footer__text:not(:last-child) {
+    margin-bottom: 15px;
+}
+.footer__link, .footer__text {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.copyright {
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.copyright .footer__link {
+    color: #ff1a1a;
+}
+.footer__logo {
+    color: #fff;
+}
+
+.footer input[type=submit] {
+    color: #fff;
+    background-color: orangered;
+    padding: 2px 4px;
 }
