@@ -1,6 +1,8 @@
 /* ------------------ */
 /* -------Global----- */
 /* ------------------ */
+/* aqua: #00e6e6 */
+/* red #ff1a1a */
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +10,94 @@
 }
 html {
     font-size: 16px;
+}
+.clearfix {
+    clear: both;
+}
+/* ------------------ */
+/* -------Header----- */
+/* ------------------ */
+/* logo */
+.header {
+    background-color: white;
+}
+.logo {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    z-index: 1000;
+    position: relative;
+}
+.logo__main {
+    font-size: 50px;
+    font-weight: 400;
+    color: #ff1a1a;
+    margin-bottom: 5px;
+}
+.logo__sub {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 15px;
+
+}
+/* navigation */
+.nav {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding: 20px;
+    padding-right: 80px;
+}
+.nav__list {
+    list-style: none;
+}
+.nav__item {
+    display: inline;
+}
+.nav__link {
+    text-decoration: none;
+    color: #00e6e6;
+    padding: 10px 10px;
+}
+.nav__link:hover {
+    color:#ff1a1a
+}
+/* ------------------ */
+/* -------Carousel----- */
+/* ------------------ */
+.carousel {
+    background-image: url(../img/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -25px;
+    z-index: 1;
+}
+.header__text {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    text-transform: uppercase;
+}
+.header__main, .header__sub {
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #d5d5c3;
+    font-weight: 400;
+    width: fit-content;
+    opacity: 0.6;
+}
+.header__main {
+    font-size: 35px;
+    letter-spacing: 4px;
+    word-spacing: 1px;
+    margin-bottom: 40px;
+}
+.header__sub {
+    font-size: 12px;
+    letter-spacing: 6px;
+    word-spacing: 2px;
 }
