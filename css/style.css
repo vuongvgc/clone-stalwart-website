@@ -11,9 +11,11 @@
 html {
     font-size: 16px;
 }
+/* clearfix for float */
 .clearfix {
     clear: both;
 }
+/* header */
 .header__secondary {
     font-size: 45px;
     text-transform: capitalize;
@@ -53,7 +55,7 @@ html {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     padding-left: 15px;
 
 }
@@ -91,6 +93,7 @@ html {
     margin-top: -25px;
     z-index: 1;
 }
+/* header text  */
 .header__text {
     position: absolute;
     top: 30%;
@@ -108,6 +111,7 @@ html {
     background-color: #d5d5c3;
     padding: 2px;
 }
+/* header main */
 .header__main {
     font-size: 40px;
     text-transform: capitalize;
@@ -115,6 +119,7 @@ html {
     word-spacing: 1px;
     margin-bottom: 40px;
 }
+/* header sub */
 .header__sub {
     font-size: 10px;
     letter-spacing: 4px;
@@ -131,6 +136,7 @@ html {
     margin: 0 auto;
     padding: 20px 0;
 }
+/* title */
 .about__header {
     background-color: #d5d5c3;
     font-size: 25px;
@@ -138,6 +144,7 @@ html {
     width: fit-content;
     margin-bottom: 20px;
 }
+/* text */
 .content {
     color: #fff;
     margin-bottom: 20px;
@@ -149,6 +156,7 @@ html {
     margin: 40px auto;
     width: 90%;
 }
+/* text */
 .welcome__text {
     text-align: center;
     width: 60%;
@@ -213,6 +221,7 @@ html {
 .succeed__list, .archive__list {
     list-style: none;
 }
+/* right */
 .right-succeed {
     float: right;
     width: 45%;
@@ -227,10 +236,12 @@ html {
     font-size: 20px;
     
 }
+/* item */
 .archive__item {
     margin-bottom: 25px;
     text-transform: capitalize;
 }
+/* number */
 .archive__number {
     color: #00e6e6;
     font-weight: 600;
