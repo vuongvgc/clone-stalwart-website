@@ -84,20 +84,21 @@ html {
 }
 .header__main, .header__sub {
     margin: 10px 0;
-    padding: 5px 0;
+    padding: 5px;
     background-color: #d5d5c3;
     font-weight: 400;
     width: fit-content;
     opacity: 0.6;
 }
 .header__main {
-    font-size: 35px;
+    font-size: 40px;
+    text-transform: capitalize;
     letter-spacing: 4px;
     word-spacing: 1px;
     margin-bottom: 40px;
 }
 .header__sub {
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 6px;
     word-spacing: 2px;
 }
