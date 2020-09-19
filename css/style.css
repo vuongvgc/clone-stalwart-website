@@ -14,6 +14,21 @@ html {
 .clearfix {
     clear: both;
 }
+.header__secondary {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header__tertiary {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header__tertiary-red {
+    color: #ff1a1a;
+}
 /* ------------------ */
 /* -------Header----- */
 /* ------------------ */
@@ -101,4 +116,63 @@ html {
     font-size: 10px;
     letter-spacing: 6px;
     word-spacing: 2px;
+}
+/* ------------------ */
+/* -------about----- */
+/* ------------------ */
+.about {
+    background-color: #00e6e6 ;
+}
+.about__content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.about__header {
+    background-color: #d5d5c3;
+    font-size: 25px;
+    font-weight: 400;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.content {
+    color: #fff;
+    margin-bottom: 20px;
+}
+/* ------------------ */
+/* -------about----- */
+/* ------------------ */
+.welcome {
+    margin: 40px auto;
+    width: 90%;
+}
+.welcome__text {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+.left, .right {
+    float: left;
+    width: 50%;
+}
+.welcome__img {
+    width: 100%;
+    height: 250px;
+}
+.welcome__box {
+    margin: 20px 0;
+
+}
+.welcome__icon, .welcome__content {
+    float: left;
+}
+.welcome__icon {
+    width: 5%;
+}
+.welcome__icon  img {
+    width: 100%;
+    margin-top: 5px;
+}
+.welcome__content {
+    width: 90%;
 }
